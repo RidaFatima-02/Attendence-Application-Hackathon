@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD with Firebase</title>
+    <link rel="stylesheet" href="./css/admin.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>ADMIN CLASS DETAILS</h2>
+      <hr />
+      <br />
+      <div class="form">
+        Class ID: <input type="text" id="ClassID" /> <br /><br />
+        Class Timings: <input type="text" id="Class-Timings" /> <br /><br />
+        Schedule of Classes:&nbsp; <input type="text" name="name" id="Schedule-of-Classes" /> <br /><br />
+        Teacher's name: <input type="text" name="name" id="Teacher's-name" /> <br /><br />
+        Section name: <input type="text"  id="Section-name" /> <br /><br />
+        Course Name: <input type="text"  id="Course-Name" /> <br /><br />
+        Batch Number: <input type="text" id="Batch-Number" /> <br /><br />
+      </div>
+
+      <div class="buttons">
+        <button id="insert">Insert</button>
+        <button id="read">Read</button>
+        <button id="update">Update</button>
+        <button id="delete">Delete</button>
+      </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js"></script>
+
+    
+    <script type="module" src="./config.js"></script>
+    <script type="module" src="./admin.js"></script>
+    <!-- <script type="module" src="./app.js"></script> -->
+
+
+  </body>
+</html>
